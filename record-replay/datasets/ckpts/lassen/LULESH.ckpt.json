@@ -1,0 +1,249 @@
+{
+      "executable": "lulesh",
+      "resultsdir": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+      "root": "/p/vast1/koparasy/record-replay-scripts/benchmarks/lulesh-omp",
+      "Profiler": {
+            "Name": "nvidia",
+            "Capability": 7.0
+      },
+      "Kernels": {
+            "__omp_offloading_2e3aafa0048af01f_l1718.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__Z22CalcKinematicsForElemsR6DomainPddi_l1718",
+                  "HashName": "__omp_offloading_2e3aafa0048af01f_l1718",
+                  "NumRegs": 160,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 559706.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_ee5b8ba4f088308c_l2369.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL15EvalEOSForElemsR6DomainPd_l2369",
+                  "HashName": "__omp_offloading_ee5b8ba4f088308c_l2369",
+                  "NumRegs": 76,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 287866.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_49e4f98dcf6ed94c_l1232.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL17CalcForceForNodesR6Domain_l1232",
+                  "HashName": "__omp_offloading_49e4f98dcf6ed94c_l1232",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 93085.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_5a17695b28a64628_l1838.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL20CalcLagrangeElementsR6DomainPd_l1838",
+                  "HashName": "__omp_offloading_5a17695b28a64628_l1838",
+                  "NumRegs": 38,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 168764.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_4f0afd38ad0a15e_l1374.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL20CalcPositionForNodesR6Domaindi_l1374",
+                  "HashName": "__omp_offloading_4f0afd38ad0a15e_l1374",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 190362.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_b3813b5b719d7af4_l1337.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL20CalcVelocityForNodesR6Domainddi_l1337",
+                  "HashName": "__omp_offloading_b3813b5b719d7af4_l1337",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 193564.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_73e9c6b908bca3f2_l1198.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL23CalcVolumeForceForElemsR6Domain_l1198",
+                  "HashName": "__omp_offloading_73e9c6b908bca3f2_l1198",
+                  "NumRegs": 56,
+                  "SMem": 1.6875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 655707.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_4df82592b62c5b7d_l330.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL23InitStressTermsForElemsR6DomainPdS1_S1_i_l330",
+                  "HashName": "__omp_offloading_4df82592b62c5b7d_l330",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 128445.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_d0d0c662c493b423_l581.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL23IntegrateStressForElemsR6DomainPdS1_S1_S1_ii_l581",
+                  "HashName": "__omp_offloading_d0d0c662c493b423_l581",
+                  "NumRegs": 96,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 2652658.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_d0d0c662c493b423_l646.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL23IntegrateStressForElemsR6DomainPdS1_S1_S1_ii_l646",
+                  "HashName": "__omp_offloading_d0d0c662c493b423_l646",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 4002414.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_36fd1a33227955eb_l1276.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL24CalcAccelerationForNodesR6Domaini_l1276",
+                  "HashName": "__omp_offloading_36fd1a33227955eb_l1276",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 160061.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_8e20267138a067b4_l1026.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL28CalcFBHourglassForceForElemsR6DomainPdS1_S1_S1_S1_S1_S1_dii_l1026",
+                  "HashName": "__omp_offloading_8e20267138a067b4_l1026",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 3982381.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_8e20267138a067b4_l841.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL28CalcFBHourglassForceForElemsR6DomainPdS1_S1_S1_S1_S1_S1_dii_l841",
+                  "HashName": "__omp_offloading_8e20267138a067b4_l841",
+                  "NumRegs": 156,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 5356392.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_883e25dc74f74f2b_l1077.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL28CalcHourglassControlForElemsR6DomainPdd_l1077",
+                  "HashName": "__omp_offloading_883e25dc74f74f2b_l1077",
+                  "NumRegs": 166,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 7438786.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_3aaff89a505c3e63_l2100.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL28CalcMonotonicQRegionForElemsR6DomainPdd_l2100",
+                  "HashName": "__omp_offloading_3aaff89a505c3e63_l2100",
+                  "NumRegs": 48,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 385466.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_b7fbee88f8989b2_l1910.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL31CalcMonotonicQGradientsForElemsR6DomainPd_l1910",
+                  "HashName": "__omp_offloading_b7fbee88f8989b2_l1910",
+                  "NumRegs": 122,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 565883.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_1acc3d8a8aa1d2e0_l1309.json": {
+                  "Name": "__omp_offloading_4d_a7215e22__ZL43ApplyAccelerationBoundaryConditionsForNodesR6Domain_l1309",
+                  "HashName": "__omp_offloading_1acc3d8a8aa1d2e0_l1309",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 131,
+                  "NumThreads": 128,
+                  "ExecTime": 9179.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            }
+      }
+}

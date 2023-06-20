@@ -1,0 +1,137 @@
+{
+      "executable": "openmc",
+      "resultsdir": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/lassen",
+      "root": "/p/vast1/koparasy/record-replay-scripts/benchmarks/openmc",
+      "Profiler": {
+            "Name": "nvidia",
+            "Capability": 7.0
+      },
+      "Kernels": {
+            "__omp_offloading_615b3bfac991f171_l148.json": {
+                  "Name": "__omp_offloading_4d_d5500a47__ZN6openmc19process_init_eventsEi_l148",
+                  "HashName": "__omp_offloading_615b3bfac991f171_l148",
+                  "NumRegs": 110,
+                  "SMem": 1.550781011581421,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 38770360.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_615b3bfac991f171_l156.json": {
+                  "Name": "__omp_offloading_4d_d5500a47__ZN6openmc19process_init_eventsEi_l156",
+                  "HashName": "__omp_offloading_615b3bfac991f171_l156",
+                  "NumRegs": 58,
+                  "SMem": 1.691406011581421,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 420955.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_4b79e918d7a61c8b_l337.json": {
+                  "Name": "__omp_offloading_4d_d5500a47__ZN6openmc20process_death_eventsEi_l337",
+                  "HashName": "__omp_offloading_4b79e918d7a61c8b_l337",
+                  "NumRegs": 72,
+                  "SMem": 1.691406011581421,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 1062696.5,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_1dbfa5d156504e2_l363.json": {
+                  "Name": "__omp_offloading_4d_d5500a47__ZN6openmc22process_revival_eventsEv_l363",
+                  "HashName": "__omp_offloading_1dbfa5d156504e2_l363",
+                  "NumRegs": 128,
+                  "SMem": 1.691406011581421,
+                  "NumTeams": 1144,
+                  "NumThreads": 128,
+                  "ExecTime": 7703010.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_318085bf16da5463_l305.json": {
+                  "Name": "__omp_offloading_4d_d5500a47__ZN6openmc24process_collision_eventsEv_l305",
+                  "HashName": "__omp_offloading_318085bf16da5463_l305",
+                  "NumRegs": 178,
+                  "SMem": 1.550781011581421,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 8282213.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_2c3707a3e8dfd066_l245.json": {
+                  "Name": "__omp_offloading_4d_d5500a47__ZN6openmc31process_advance_particle_eventsEi_l245",
+                  "HashName": "__omp_offloading_2c3707a3e8dfd066_l245",
+                  "NumRegs": 120,
+                  "SMem": 1.550781011581421,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 4080770.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_da14696cb1e02154_l281.json": {
+                  "Name": "__omp_offloading_4d_d5500a47__ZN6openmc31process_surface_crossing_eventsEv_l281",
+                  "HashName": "__omp_offloading_da14696cb1e02154_l281",
+                  "NumRegs": 124,
+                  "SMem": 1.550781011581421,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 4918313.5,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_d2a108e135694d7_l223.json": {
+                  "Name": "__omp_offloading_4d_d5500a47__ZN6openmc32process_calculate_xs_events_fuelEv_l223",
+                  "HashName": "__omp_offloading_d2a108e135694d7_l223",
+                  "NumRegs": 134,
+                  "SMem": 1.550781011581421,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 34602960.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_672a1e610f07063a_l189.json": {
+                  "Name": "__omp_offloading_4d_d5500a47__ZN6openmc35process_calculate_xs_events_nonfuelEv_l189",
+                  "HashName": "__omp_offloading_672a1e610f07063a_l189",
+                  "NumRegs": 134,
+                  "SMem": 1.550781011581421,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 1865070.875,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            }
+      }
+}

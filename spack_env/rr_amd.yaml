@@ -1,0 +1,20 @@
+# This is a Spack Environment file.
+#
+# It describes a set of packages to be installed, along with
+# configuration settings.
+spack:
+  # add package specs to the `specs` list
+  specs:
+   - python
+   - py-numpy
+   - py-pandas
+   - py-seaborn
+   - py-matplotlib
+   - py-scikit-learn
+   - ncurses@6.3
+   - ninja
+   - cmake@3.24.3
+   - binutils +headers+ld+lto+nls+plugins
+  view: true
+  concretizer:
+    unify: when_possible

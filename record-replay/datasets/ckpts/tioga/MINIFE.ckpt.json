@@ -1,0 +1,101 @@
+{
+      "executable": "miniFE.x",
+      "resultsdir": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/tioga",
+      "root": "/p/vast1/koparasy/record-replay-scripts/benchmarks/miniFE-omp",
+      "Profiler": {
+            "Name": "amdgpu"
+      },
+      "Kernels": {
+            "__omp_offloading_154428cee7c88b0f_l254.json": {
+                  "Name": "__omp_offloading_5c_4a7455e3__ZN6miniFE3dotINS_6VectorIdiiEEEENS_10TypeTraitsINT_10ScalarTypeEE14magnitude_typeERKS4_S9__l254",
+                  "HashName": "__omp_offloading_154428cee7c88b0f_l254",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_251432e7e912d4da_l205.json": {
+                  "Name": "__omp_offloading_5c_4a7455e3__ZN6miniFE6daxpbyINS_6VectorIdiiEEEEvdRKT_dRS3__l205",
+                  "HashName": "__omp_offloading_251432e7e912d4da_l205",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_251432e7e912d4da_l210.json": {
+                  "Name": "__omp_offloading_5c_4a7455e3__ZN6miniFE6daxpbyINS_6VectorIdiiEEEEvdRKT_dRS3__l210",
+                  "HashName": "__omp_offloading_251432e7e912d4da_l210",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_9b3a7c5e892156e1_l290.json": {
+                  "Name": "__omp_offloading_5c_4a7455e3__ZN6miniFE6dot_r2INS_6VectorIdiiEEEENS_10TypeTraitsINT_10ScalarTypeEE14magnitude_typeERKS4__l290",
+                  "HashName": "__omp_offloading_9b3a7c5e892156e1_l290",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_af8733cc53a3c559_l157.json": {
+                  "Name": "__omp_offloading_5c_4a7455e3__ZN6miniFE6waxpbyINS_6VectorIdiiEEEEvNT_10ScalarTypeERKS3_S4_S6_RS3__l157",
+                  "HashName": "__omp_offloading_af8733cc53a3c559_l157",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_af8733cc53a3c559_l169.json": {
+                  "Name": "__omp_offloading_5c_4a7455e3__ZN6miniFE6waxpbyINS_6VectorIdiiEEEEvNT_10ScalarTypeERKS3_S4_S6_RS3__l169",
+                  "HashName": "__omp_offloading_af8733cc53a3c559_l169",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_d9881258ca754923_l521.json": {
+                  "Name": "__omp_offloading_5c_8ac81b25__ZN6miniFE10matvec_stdINS_9CSRMatrixIdiiEENS_6VectorIdiiEEEclERS2_RS4_S7__l521",
+                  "HashName": "__omp_offloading_d9881258ca754923_l521",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            }
+      }
+}

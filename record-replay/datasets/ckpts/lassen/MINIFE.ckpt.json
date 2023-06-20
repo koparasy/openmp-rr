@@ -1,0 +1,109 @@
+{
+      "executable": "miniFE.x",
+      "resultsdir": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/lassen",
+      "root": "/p/vast1/koparasy/record-replay-scripts/benchmarks/miniFE-omp",
+      "Profiler": {
+            "Name": "nvidia",
+            "Capability": 7.0
+      },
+      "Kernels": {
+            "__omp_offloading_b89dbb2666b9eaff_l254.json": {
+                  "Name": "__omp_offloading_4d_4d72c7e6__ZN6miniFE3dotINS_6VectorIdiiEEEENS_10TypeTraitsINT_10ScalarTypeEE14magnitude_typeERKS4_S9__l254",
+                  "HashName": "__omp_offloading_b89dbb2666b9eaff_l254",
+                  "NumRegs": 56,
+                  "SMem": 1.6875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 397604.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_837f1d80710fe384_l205.json": {
+                  "Name": "__omp_offloading_4d_4d72c7e6__ZN6miniFE6daxpbyINS_6VectorIdiiEEEEvdRKT_dRS3__l205",
+                  "HashName": "__omp_offloading_837f1d80710fe384_l205",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 241012.90625,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_837f1d80710fe384_l210.json": {
+                  "Name": "__omp_offloading_4d_4d72c7e6__ZN6miniFE6daxpbyINS_6VectorIdiiEEEEvdRKT_dRS3__l210",
+                  "HashName": "__omp_offloading_837f1d80710fe384_l210",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 242355.484375,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_8a5d70a605c3f7f8_l290.json": {
+                  "Name": "__omp_offloading_4d_4d72c7e6__ZN6miniFE6dot_r2INS_6VectorIdiiEEEENS_10TypeTraitsINT_10ScalarTypeEE14magnitude_typeERKS4__l290",
+                  "HashName": "__omp_offloading_8a5d70a605c3f7f8_l290",
+                  "NumRegs": 56,
+                  "SMem": 1.6875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 386446.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_a2341f375f5999a4_l157.json": {
+                  "Name": "__omp_offloading_4d_4d72c7e6__ZN6miniFE6waxpbyINS_6VectorIdiiEEEEvNT_10ScalarTypeERKS3_S4_S6_RS3__l157",
+                  "HashName": "__omp_offloading_a2341f375f5999a4_l157",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 192905.5,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_a2341f375f5999a4_l169.json": {
+                  "Name": "__omp_offloading_4d_4d72c7e6__ZN6miniFE6waxpbyINS_6VectorIdiiEEEEvNT_10ScalarTypeERKS3_S4_S6_RS3__l169",
+                  "HashName": "__omp_offloading_a2341f375f5999a4_l169",
+                  "NumRegs": 32,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 239321.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            },
+            "__omp_offloading_d0b8f73742e246b5_l521.json": {
+                  "Name": "__omp_offloading_4d_8ac81b25__ZN6miniFE10matvec_stdINS_9CSRMatrixIdiiEENS_6VectorIdiiEEEclERS2_RS4_S7__l521",
+                  "HashName": "__omp_offloading_d0b8f73742e246b5_l521",
+                  "NumRegs": 34,
+                  "SMem": 1.546875,
+                  "NumTeams": 3200,
+                  "NumThreads": 128,
+                  "ExecTime": 28287778.0,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/MINIFE/lassen",
+                  "Profiler": {
+                        "Name": "nvidia",
+                        "Capability": 7.0
+                  }
+            }
+      }
+}

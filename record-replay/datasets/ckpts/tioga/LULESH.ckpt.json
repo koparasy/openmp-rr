@@ -1,0 +1,231 @@
+{
+      "executable": "lulesh",
+      "resultsdir": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+      "root": "/p/vast1/koparasy/record-replay-scripts/benchmarks/lulesh-omp",
+      "Profiler": {
+            "Name": "amdgpu"
+      },
+      "Kernels": {
+            "__omp_offloading_affafb0a3f114eeb_l1718.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__Z22CalcKinematicsForElemsR6DomainPddi_l1718",
+                  "HashName": "__omp_offloading_affafb0a3f114eeb_l1718",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_caab604d0efd78b2_l2369.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL15EvalEOSForElemsR6DomainPd_l2369",
+                  "HashName": "__omp_offloading_caab604d0efd78b2_l2369",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_e90ccfee79a78d87_l1232.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL17CalcForceForNodesR6Domain_l1232",
+                  "HashName": "__omp_offloading_e90ccfee79a78d87_l1232",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_5243c6ab01e5b9e3_l1838.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL20CalcLagrangeElementsR6DomainPd_l1838",
+                  "HashName": "__omp_offloading_5243c6ab01e5b9e3_l1838",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_7f22b6cdc58d2530_l1374.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL20CalcPositionForNodesR6Domaindi_l1374",
+                  "HashName": "__omp_offloading_7f22b6cdc58d2530_l1374",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_5eb6467d9ee7a1ae_l1337.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL20CalcVelocityForNodesR6Domainddi_l1337",
+                  "HashName": "__omp_offloading_5eb6467d9ee7a1ae_l1337",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_aefc775d095fd639_l1198.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL23CalcVolumeForceForElemsR6Domain_l1198",
+                  "HashName": "__omp_offloading_aefc775d095fd639_l1198",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_cad16874612ab7a_l330.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL23InitStressTermsForElemsR6DomainPdS1_S1_i_l330",
+                  "HashName": "__omp_offloading_cad16874612ab7a_l330",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_e336948463c915_l581.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL23IntegrateStressForElemsR6DomainPdS1_S1_S1_ii_l581",
+                  "HashName": "__omp_offloading_e336948463c915_l581",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_e336948463c915_l646.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL23IntegrateStressForElemsR6DomainPdS1_S1_S1_ii_l646",
+                  "HashName": "__omp_offloading_e336948463c915_l646",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_5d1679d97bbaa23c_l1276.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL24CalcAccelerationForNodesR6Domaini_l1276",
+                  "HashName": "__omp_offloading_5d1679d97bbaa23c_l1276",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_c9ab04290e8fed84_l1026.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL28CalcFBHourglassForceForElemsR6DomainPdS1_S1_S1_S1_S1_S1_dii_l1026",
+                  "HashName": "__omp_offloading_c9ab04290e8fed84_l1026",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_c9ab04290e8fed84_l841.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL28CalcFBHourglassForceForElemsR6DomainPdS1_S1_S1_S1_S1_S1_dii_l841",
+                  "HashName": "__omp_offloading_c9ab04290e8fed84_l841",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_a46876fe53028bed_l1077.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL28CalcHourglassControlForElemsR6DomainPdd_l1077",
+                  "HashName": "__omp_offloading_a46876fe53028bed_l1077",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_295ff9b38c7de8e_l2100.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL28CalcMonotonicQRegionForElemsR6DomainPdd_l2100",
+                  "HashName": "__omp_offloading_295ff9b38c7de8e_l2100",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_78ecba673517ac2_l1910.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL31CalcMonotonicQGradientsForElemsR6DomainPd_l1910",
+                  "HashName": "__omp_offloading_78ecba673517ac2_l1910",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_17c69f3b359fe68a_l1309.json": {
+                  "Name": "__omp_offloading_5a_a7215e22__ZL43ApplyAccelerationBoundaryConditionsForNodesR6Domain_l1309",
+                  "HashName": "__omp_offloading_17c69f3b359fe68a_l1309",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/LULESH/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            }
+      }
+}

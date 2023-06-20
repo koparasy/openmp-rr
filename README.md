@@ -1,4 +1,48 @@
-# The LLVM Compiler Infrastructure
+# OpenMP Record Replay Reproducibility
+
+This repository contains all source code required to reproduce the experiments
+of our work. It contains LLVM extensions, OpenMP offload runtime record-replay mechanism
+and all the required scripts to perform the analysis of our work.
+
+## Requirements
+
+* Ninja
+* CMake @3.20
+* cuda@11.6.1 (For NVIDIA systems)
+* ROCm@5.4.3 (For AMD systems)
+* GCC@8.3.1 (For NVIDIA)
+* GCC@10.3.1 (For AMD)
+
+## Installation
+
+We provide an installation script `setup.sh` the remaining requirements of our experimentation
+using spack. The script will clone `spack` in the root directory create an environment and install
+all necessary packages. Once everything is installed it moves forward to install the provided Clang/LLVM.
+Below you can see a snippet of code invoking the `setup.sh` script
+
+In our [Power 9 system](https://hpc.llnl.gov/hardware/compute-platforms/lassen) the setup script takes a little less than 3 hours.
+
+```bash
+module load gcc/8.3.1
+module load ninja
+module load cmake/3.20.1
+module load cuda/11.6.1
+./setup.sh nvidia 40
+...
+```
+
+The first argument of `setup.sh` describes the GPU vendor so it takes the values of nvidia or amd (lower case letters). The second value takes as an argument the number of threads to be used for the installation. Once the installation finishes please source the created environment file `env_${SUFFIX}.sh`. `SUFFIX` can take the value of either nvidia or amd. The scripts must be sourced every time we start the record-replay mechanism.
+
+## Record-Replay optimizations
+
+To continue with our reproducibility you can follow the instructions under this [README](./record-replay/README.md)
+
+## Contributors
+
+The source code extensions written on top of [Clang/LLVM](https://github.com/llvm/llvm-project) were performed by
+[Konstantinos Parasyris](mailto:parasyris1@llnl.gov) , [Giorgis Georgakoudis](mailto:georgakoudis1@llnl.gov), [Johannes Doerfert](mailto:doerfert1@llnl.gov).
+
+## The LLVM Compiler Infrastructure
 
 This directory and its sub-directories contain the source code for LLVM,
 a toolkit for the construction of highly optimized compilers,

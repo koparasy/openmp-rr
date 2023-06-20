@@ -1,0 +1,41 @@
+
+OBJS = ${BUILDDIR}/BoxPartition.o ${BUILDDIR}/YAML_Doc.o ${BUILDDIR}/YAML_Element.o
+
+UTIL_OBJS = ${BUILDDIR}/param_utils.o ${BUILDDIR}/utils.o ${BUILDDIR}/mytimer.o
+
+MAIN_OBJ = ${BUILDDIR}/main.o
+
+MINIFE_INFO = 1
+MINIFE_KERNELS = 0
+
+vpath %.cpp ../utils
+
+all:common_files generate_info ${EXEDIR}miniFE.x
+
+${EXEDIR}miniFE.x:common_files generate_info $(MAIN_OBJ) $(OBJS) $(UTIL_OBJS) $(OPTIONAL_OBJS) *.hpp
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) $(MAIN_OBJ) $(OBJS) $(UTIL_OBJS) $(OPTIONAL_OBJS) -o ${EXEDIR}/miniFE.x $(LDFLAGS) $(OPTIONAL_LIBS) $(LIBS)
+
+common_files:
+	./get_common_files
+
+generate_info:
+	./generate_info_header "$(CXX)" "$(CXXFLAGS)" "miniFE" "MINIFE"
+
+verify:all
+	./run_tests
+
+${BUILDDIR}/%.o:%.cpp *.hpp
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) -DMINIFE_INFO=$(MINIFE_INFO) -DMINIFE_KERNELS=$(MINIFE_KERNELS) -c $< -o $@
+
+${BUILDDIR}/%.o:%.c *.h
+	$(CC) $(CFLAGS) $(CPPFLAGS) -c $< -o $@
+
+run: ${EXEDIR}miniFE.x
+	${EXEDIR}/miniFE.x -nx 128 -ny 128 -nz 128
+
+clean:
+	cd ${BUILDDIR}; rm -f *.o *.a *.x *.linkinfo miniFE_info.hpp
+
+realclean: clean
+	rm -f gmon.out gprof.* *~ *.yaml *.TVD.* *.mtx* *.vec* minife_debug*
+

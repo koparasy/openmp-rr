@@ -1,0 +1,127 @@
+{
+      "executable": "openmc",
+      "resultsdir": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/tioga",
+      "root": "/p/vast1/koparasy/record-replay-scripts/benchmarks/openmc",
+      "Profiler": {
+            "Name": "amdgpu"
+      },
+      "Kernels": {
+            "__omp_offloading_ffb8baabdcad88ca_l148.json": {
+                  "Name": "__omp_offloading_5a_d5500a47__ZN6openmc19process_init_eventsEi_l148",
+                  "HashName": "__omp_offloading_ffb8baabdcad88ca_l148",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_ffb8baabdcad88ca_l156.json": {
+                  "Name": "__omp_offloading_5a_d5500a47__ZN6openmc19process_init_eventsEi_l156",
+                  "HashName": "__omp_offloading_ffb8baabdcad88ca_l156",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_1500754086e4b638_l337.json": {
+                  "Name": "__omp_offloading_5a_d5500a47__ZN6openmc20process_death_eventsEi_l337",
+                  "HashName": "__omp_offloading_1500754086e4b638_l337",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_239877aea71cadd5_l363.json": {
+                  "Name": "__omp_offloading_5a_d5500a47__ZN6openmc22process_revival_eventsEv_l363",
+                  "HashName": "__omp_offloading_239877aea71cadd5_l363",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_4bbe212ba36e8f2f_l305.json": {
+                  "Name": "__omp_offloading_5a_d5500a47__ZN6openmc24process_collision_eventsEv_l305",
+                  "HashName": "__omp_offloading_4bbe212ba36e8f2f_l305",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_be5f547f4ead13be_l245.json": {
+                  "Name": "__omp_offloading_5a_d5500a47__ZN6openmc31process_advance_particle_eventsEi_l245",
+                  "HashName": "__omp_offloading_be5f547f4ead13be_l245",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_36d709d3e98287a_l281.json": {
+                  "Name": "__omp_offloading_5a_d5500a47__ZN6openmc31process_surface_crossing_eventsEv_l281",
+                  "HashName": "__omp_offloading_36d709d3e98287a_l281",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_a9f040e379f22429_l223.json": {
+                  "Name": "__omp_offloading_5a_d5500a47__ZN6openmc32process_calculate_xs_events_fuelEv_l223",
+                  "HashName": "__omp_offloading_a9f040e379f22429_l223",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            },
+            "__omp_offloading_cabe54520f82f8c9_l189.json": {
+                  "Name": "__omp_offloading_5a_d5500a47__ZN6openmc35process_calculate_xs_events_nonfuelEv_l189",
+                  "HashName": "__omp_offloading_cabe54520f82f8c9_l189",
+                  "NumRegs": -1,
+                  "SMem": -1,
+                  "NumTeams": -1,
+                  "NumThreads": -1,
+                  "ExecTime": -1,
+                  "DB": "/p/vast1/koparasy/record-replay-scripts/results/OPENMC/tioga",
+                  "Profiler": {
+                        "Name": "amdgpu"
+                  }
+            }
+      }
+}
