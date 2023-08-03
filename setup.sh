@@ -12,6 +12,11 @@ if [[ "$numArgs" != 2 ]]; then
   exit
 fi
 
+CURDIR=$(pwd)
+LLVM_SRC_DIR=$(realpath $CURDIR)
+BUILD_DIR="$(realpath $CURDIR)/build_${system}_60/"
+INSTALL_DIR="$(realpath $CURDIR)/install_${system}_60/"
+
 python3 -m ensurepip
 python3 -m pip install --upgrade pip
 python3 -m pip install -r ${CURDIR}/record-replay/RR/requirements.txt
@@ -19,11 +24,6 @@ python3 -m pip install -r ${CURDIR}/record-replay/RR/requirements.txt
 if [[ "${system}" == "nvidia" ]]; then
   python3 -m pip install pycuda==2022.2.2
 fi
-
-CURDIR=$(pwd)
-LLVM_SRC_DIR=$(realpath $CURDIR)
-BUILD_DIR="$(realpath $CURDIR)/build_${system}_60/"
-INSTALL_DIR="$(realpath $CURDIR)/install_${system}_60/"
 
 GCC_BIN=$(dirname $(dirname $(which gcc)))
 echo "I am using $GCC_BIN as default 'gcc' compiler"
