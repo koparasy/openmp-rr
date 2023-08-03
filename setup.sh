@@ -12,12 +12,12 @@ if [[ "$numArgs" != 2 ]]; then
   exit
 fi
 
-python -m ensurepip
-python -m pip install --upgrade pip
-python -m pip install -r ${CURDIR}/record-replay/RR/requirements.txt
+python3 -m ensurepip
+python3 -m pip install --upgrade pip
+python3 -m pip install -r ${CURDIR}/record-replay/RR/requirements.txt
 
 if [[ "${system}" == "nvidia" ]]; then
-  python -m pip install pycuda==2022.2.2
+  python3 -m pip install pycuda==2022.2.2
 fi
 
 CURDIR=$(pwd)
