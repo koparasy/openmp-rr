@@ -7,11 +7,13 @@ and all the required scripts to perform the analysis of our work.
 ## Requirements
 
 * Ninja
-* CMake @3.20
+* CMake@3.20 or CMake@3.23
 * cuda@11.6.1 (For NVIDIA systems)
 * ROCm@5.4.3 (For AMD systems)
-* GCC@8.3.1 (For NVIDIA)
+* GCC@8.3.1 or GCC@10.3.1 (For NVIDIA)
 * GCC@10.3.1 (For AMD)
+* python@3.9.12
+* pip@23.2.1
 
 ## Installation
 

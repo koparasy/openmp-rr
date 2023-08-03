@@ -71,7 +71,7 @@ def main():
     if not (record or print_record or args.summary):
       algorithm, userScenarios = choices[args.scenario]
 
-    host = "".join(filter(lambda x: not x.isdigit(), socket.gethostname()))
+    host = "".join(filter(lambda x: not x.isdigit(), args.device))
     ckpt_dir = f'ckpts/{host}/'
 
     ckpt_dir = Utilities.createDir(ckpt_dir)
