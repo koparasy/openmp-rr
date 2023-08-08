@@ -21,10 +21,10 @@ LDFLAGS+=-L${compDIR}/lib -L${compDIR}/lib64
 all: ${BINS}
 
 ${BINS}: $(OBJS)
-	${LECPP} --gcc-toolchain=/usr/WS2/koparasy/spack/var/spack/environments/rr_nvptx/.spack-env/view/ -v ${LDFLAGS} ${CPPFLAGS} ${OBJS} -o $@
+	${LECPP} -v ${LDFLAGS} ${CPPFLAGS} ${OBJS} -o $@
 
 ${RBUILDDIR}/%.o: %.cpp
-	$(LECPP) --gcc-toolchain=/usr/WS2/koparasy/spack/var/spack/environments/rr_nvptx/.spack-env/view/ -v $(CPPFLAGS) -c $< -o $@
+	$(LECPP) -v $(CPPFLAGS) -c $< -o $@
 
 clean:
 	@echo "Cleaning up ..."
