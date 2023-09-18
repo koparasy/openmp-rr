@@ -6,7 +6,7 @@ spack:
   # add package specs to the `specs` list
   specs:
   - matrix:
-    - [python, py-numpy, py-pandas, py-seaborn, py-matplotlib, py-scikit-learn, ncurses@6.3,
+    - [python@3.10.8, py-numpy, py-pandas, py-seaborn, py-matplotlib, py-scikit-learn, ncurses@6.3,
       py-pybind11 ^cmake@3.23.1, gcc@9.5.0]
     - ['%gcc@8.3.1']
   view: true
